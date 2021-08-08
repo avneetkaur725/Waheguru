@@ -1,0 +1,38 @@
+/* =========================================================== 
+   Apply CSS 
+============================================================== */
+
+a{
+  float:left;
+}
+nav{
+  margin-right: auto;
+  margin-left: auto;
+  width:380px;
+
+}
+.img-featured{
+  float:right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  
+}
+.article-content{
+  padding-left: 170px;
+}
+.img-article{
+  float:left;
+  margin-right: 25px;
+}
+.group::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
